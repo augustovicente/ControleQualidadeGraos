@@ -1,9 +1,9 @@
-# Controle de qualidade de grãos
+# Grain Quality Control
 
-O objetivo do projeto se tratava de automatizar a classificação de grãos, realizada previamente manualmente, o que a torna sujeita a fraudes.
-Esta automação é feita por um aplicativo que se comunica com um dispositivo de IoT via bluetooth. 
-Tal dispositivo recolhe as informações da classificação de grãos via comunicação serial e repassa ao aplicativo do dispositivo conectado.
-O app salva as informações no banco de dados, juntamente com algumas observações e imagens e, após isso, imprime um ticket via bluetooth de uma impressoara serial.
+The **Grain Quality Control** project aims to automate the classification of grains, a process that was previously done manually and was susceptible to fraud. 
+This automation is achieved through an application that communicates with an IoT device via Bluetooth.
+The device collects grain classification information through serial communication and sends it to the connected app.
+The app then saves the data in a database, including observations and images, and prints a ticket via Bluetooth to a serial printer.
 
 ## Prerequisites
 
